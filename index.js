@@ -31,5 +31,5 @@ function findBy(array, findFn) {
 }
 
 
-var funcName = (params) => params + 2
-console.log(funcName(2))
+var funcName = (params) => console.log(params + 2)
+funcName(2)
